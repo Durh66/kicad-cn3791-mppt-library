@@ -1,0 +1,225 @@
+(footprint "CN3971_Module"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "aaa3fc02-9ab6-4473-bf31-8c357433d370")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "CN3971_Module"
+		(at 0 0.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06981bb8-6334-45a0-b2a0-690613cdee11")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c3704b2b-eac5-4597-bf17-6bab8f4368f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6bf5bf2c-3036-44a5-9f3e-558a3a254078")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_line
+		(start -22.205035 -9.935664)
+		(end 22.594965 -9.935664)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "870eb07c-3ef2-4b00-a53d-1ed4a4b6cdcc")
+	)
+	(fp_line
+		(start -22.205035 10.064336)
+		(end -22.205035 -9.935664)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "805beb71-d332-4f18-b73d-c2caeeba0939")
+	)
+	(fp_line
+		(start 22.594965 -9.935664)
+		(end 22.594965 10.064336)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "76433dd7-9a66-497b-ba46-3c424e13dc86")
+	)
+	(fp_line
+		(start 22.594965 10.064336)
+		(end -22.205035 10.064336)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cab32403-581d-497a-8b65-e20700797913")
+	)
+	(fp_text user "VIN"
+		(at -8.205 6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "ecee201e-6ce8-467f-8b2c-0d25ad42b5ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -5 6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "169be662-083c-4399-aefa-76219d324f14")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -2.5 6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9bfaa434-5524-4b97-bfa9-47651f3c7b8f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "BAT"
+		(at 0 6 90)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "da3dbb62-8e3a-4a18-96fd-c4a0df198e36")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e4065364-1bd0-4aea-9426-d13f2ddc7669")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -8.205 8.0643)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "04f344f6-5b4d-4017-a09f-f0c9e384cd03")
+	)
+	(pad "2" thru_hole circle
+		(at -5.665 8.0643)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1d3bafcc-a395-43af-8b54-1cfdaccdda9d")
+	)
+	(pad "3" thru_hole circle
+		(at -3.125 8.0643)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "6cf2db86-fef5-4f00-a42a-f33b610b872d")
+	)
+	(pad "4" thru_hole circle
+		(at -0.585 8.0643)
+		(size 1.7 1.7)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22bbe499-d2af-413f-a584-6ee01eee30cd")
+	)
+	(zone
+		(layer "F.SilkS")
+		(uuid "2a585f9b-e11f-49cb-ac6f-6475a9854aa5")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 0)
+		)
+		(polygon
+			(pts
+				(xy -22.205035 -9.935664) (xy 22.594965 -9.935664) (xy 22.594965 10.064336) (xy -22.205035 10.064336)
+			)
+		)
+	)
+	(embedded_fonts no)
+)
